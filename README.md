@@ -12,14 +12,14 @@ The World Meme Bank acts as a file storage, user database, and meme ownership se
 * MongoDB
 
 ## Starting Server
-1. Create a \data\db folder
+1. Create a \data\db folder where you want your Mongo data to be stored.
 1. Open a terminal window
-1. Run ```mongod --dbpath [path to \data\db folder]
+1. Run ```mongod --dbpath [path to \data\db folder]```
 1. Open new terminal window
 1. Set working directory to the folder of this readme
 1. Run ```npm install``` to download neccesary packages
 1. Run ```node .``` to start the server
-1. Navigate to the localhost:3000/explorer
+1. Navigate to localhost:3000/explorer
 
 ## Installation Notes
 The default port for MongoDB is 27017 which is also the port this app is configured to use.
