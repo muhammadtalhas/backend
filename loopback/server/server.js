@@ -17,7 +17,7 @@ app.start = function () {
 
     if (app.get('loopback-component-explorer')) {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
-      console.log('%sLoopback Explorer at %s%s', logging.lb, baseUrl, explorerPath);
+      console.log('%sLoopback api explorer at %s%s', logging.lb, baseUrl, explorerPath);
     }
   });
 };
