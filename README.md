@@ -19,7 +19,7 @@ The World Meme Bank acts as a file storage, user database, and meme ownership se
 1. Set working directory to the folder of this readme
 1. Run ```npm install``` to download neccesary packages
 1. Run ```node .``` to start the server
-1. Navigate to localhost:3000/explorer
+1. To test navigate to localhost:3000/explorer  
 
 ## Installation Notes
 The default port for MongoDB is 27017 which is also the port this app is configured to use.
