@@ -1,0 +1,37 @@
+{
+  "name": "Account",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string",
+      "required": true,
+      "comments": "Users email"
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "comments": "Users password"
+    },
+    "emailVerified": {
+      "type": "boolean",
+      "required": true,
+      "comments": "Has the account been verified?"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
