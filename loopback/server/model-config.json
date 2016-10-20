@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongodb"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -31,12 +31,6 @@
   "Role": {
     "dataSource": "mongodb",
     "public": false
-  },
-  "Account": {
-    "dataSource": "mongodb",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
   },
   "Meme": {
     "dataSource": "mongodb",

@@ -11,7 +11,7 @@ var logging = require('../../common/logging.js');
 
 app.start = function () {
   // Start the web server
-  return app.listen(function () {
+  return app.listen(3030, function () {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
 
