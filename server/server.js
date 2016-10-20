@@ -7,7 +7,7 @@ var app = module.exports = loopback();
 var childProcess = require('child_process');
 
 // Custom
-var logging = require('../../common/logging.js');
+var logging = require('../universal/logging.js');
 
 app.start = function () {
   // Start the web server

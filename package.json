@@ -1,7 +1,7 @@
 {
   "name": "memeecon-backend",
   "version": "1.0.0",
-  "main": "./loopback/server/server.js",
+  "main": "./server/server.js",
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
@@ -31,5 +31,5 @@
     "url": "https://github.com/MemeEcon/wmb.git"
   },
   "license": "UNLICENSED",
-  "description": "wmb-loopback"
+  "description": "backend for nasdanq"
 }
