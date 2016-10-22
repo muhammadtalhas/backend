@@ -11,11 +11,8 @@ var logging = require('../common/logging.js');
 console.log("%sDatabase service running", logging.api);
 
 // Custom db functions
-var mongo_Docco = require('./docco.js');
+var mongo_Users = require('./users/users.js');
 
 module.exports = {
-    insertSomeDoccos: function () {
-        console.log("Attempting to insert some docco");
-        mongo_Docco.InsertSomeDoccos()
-    }
+    mongoUsers: mongo_Users
 }
