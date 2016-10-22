@@ -1,3 +1,7 @@
-var logging = require('../universal/logging.js');
+/**
+ * LOGIC SERVER
+ */
 
-console.log("%sBooted logic server", logging.lg);
+var logging = require('../common/logging.js');
+
+console.log("%sBooting logic server", logging.lgc);
