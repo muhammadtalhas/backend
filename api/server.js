@@ -21,12 +21,12 @@ const BASE_URL = '/api';
 // App stores the express app
 var app = express();
 
-app.get(BASE_URL, function(req, res) {
+app.get(BASE_URL, (req, res) => {
     res.send("You have reached the NASDANQ API server");
+    dbservice.insertSomeDoccos();
 });
 
 // Listen on the specified port
 app.listen(SERVER_PORT, function() {
     console.log("%sAPI server running locally at http://localhost:%s%s", logging.api, SERVER_PORT, BASE_URL);
-    var db = dbservice;
 });
